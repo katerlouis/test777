@@ -2,9 +2,13 @@
   "name": "test777",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+
+  "scripts": {  
+	// these commands can be run via terminal 
+	// npm run ...
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --mode prodlib",
   },
   "dependencies": {
     "vue": "^2.5.21",

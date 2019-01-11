@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+
+<title>test52 demo</title>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.0.js"
+  integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
+  crossorigin="anonymous">
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="./distLIB/test777.umd.js"></script>
+<link rel="stylesheet" href="./distLIB/test777.css">
+
+<div id="demo">
+  <demo></demo>
+</div>
+
+
+<script>
+var test777 = new Vue({
+	components: {
+		demo: test777
+	},
+}).$mount('#demo')
+</script>

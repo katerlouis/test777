@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Giuliana Behner" :src="testFunc()" width="450" />  
   </div>
 </template>
 
@@ -12,6 +13,12 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  methods: {
+  		testFunc() {
+  			console.log(process.env);
+  			return "/img/behner.jpg";
+  		}
   }
 }
 </script>
